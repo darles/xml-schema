@@ -45,7 +45,15 @@ people to push their own additional attributes/elements into the same field elem
   <xs:element name="uploadable-file-mime-type" type="gedmo:emptyType"/>
   <xs:element name="uploadable-file-path" type="gedmo:emptyType"/>
   <xs:element name="uploadable-file-size" type="gedmo:emptyType"/>
-
+  <!-- tasker -->
+  <xs:element name="apiField" type="gedmo:emptyType"/>
+  <xs:element name="clientApiField" type="gedmo:emptyType"/>
+  <xs:element name="indexField" type="gedmo:emptyType"/>
+  <xs:element name="showField" type="gedmo:emptyType"/>
+  <xs:element name="editField" type="gedmo:emptyType"/>
+  <xs:element name="duplicateField" type="gedmo:emptyType"/>
+  <xs:element name="searchField" type="gedmo:emptyType"/>
+  
   <xs:complexType name="translation">
     <xs:attribute name="entity" type="xs:string" use="optional" />
     <xs:attribute name="locale" type="xs:string" use="optional" />
