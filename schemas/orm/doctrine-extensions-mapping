@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schema.local.lt/schemas/orm/doctrine-extensions-mapping"
-    xmlns:gedmo="http://schema.local.lt/schemas/orm/doctrine-extensions-mapping"
+    targetNamespace="https://raw.github.com/darles/xml-schema/master/schemas/orm/doctrine-extensions-mapping"
+    xmlns:gedmo="https://raw.github.com/darles/xml-schema/master/schemas/orm/doctrine-extensions-mapping"
     elementFormDefault="qualified">
 
   <xs:annotation>
